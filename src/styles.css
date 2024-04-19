@@ -1,0 +1,145 @@
+body {
+  font-family: "Quicksand", monospace;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 50px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 210px; /* Set a width for the button field */
+  height: 50px; /* Set a height for the button field */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  text-align: center;
+  display: inline-block;
+  font-size: 32px;
+}
+
+form h2 {
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 40px 48px 40px;
+}
+.title-container {
+  height: auto;
+  width: 500px;
+  text-align: center;
+  overflow: hidden;
+}
+/* Style the entire form */
+form {
+  width: 350px; /* Set a width for the form field */
+  height: 23px; /* Set a height for the form field */
+  overflow: auto;
+  margin: 10px auto; /* Add some margin for spacing */
+  padding: 26px; /* Add some padding inside the form */
+  /*border: 1px solid #ccc;  Add a thin border */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+#second-form {
+  overflow: auto;
+  margin: 10px 5px 1px 2px; /* Add some margin for spacing */
+  padding-block: 0px 52px; /*padding for the block start and block end sides of an element*/
+  border-radius: 5px; /* Add rounded corners */
+}
+.tall-form {
+  height: 180px; /* adjust as needed */
+}
+
+/* Style the label */
+label {
+  font-weight: bold; /* Make the label text bold */
+  margin-bottom: 5px; /* Add some space between label and input */
+  margin-top: 10px;
+}
+
+nav {
+  display: flex; /* Make the navigation bar a flex container */
+  justify-content: space-between; /* Align items evenly on the left and right */
+  align-items: center; /* Align content vertically in the center */
+  padding: 10px 20px; /* Add some padding inside the navbar */
+  background-color: #f0f0f0; /* Optional background color */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Align logos vertically in the center */
+}
+
+.navigation-links {
+  display: flex; /* Make navigation links a flex container */
+  list-style: none; /* Remove default bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.navigation-links a {
+  text-decoration: none; /* Remove underline from links */
+  margin-right: 20px; /* Add some margin between links */
+  color: #333; /* Link color */
+}
+
+.navigation-links a:hover {
+  color: #000; /* Change link color on hover */
+}
+
+/* Style the input field */
+input[type="text"] {
+  width: 350px; /* Set a width for the input field */
+  height: 30px; /* Set a height for the input field */
+  padding: 5px; /* Add some padding inside the input */
+  margin:10px;
+  border: 1px solid #ccc; /* Add a thin border */
+  border-radius: 3px; /* Add rounded corners */
+  font-size: 16px; /* Set the font size */
+}
+
+/* Style the button */
+button[type="submit"] {
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Add some padding inside the button */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin-top: 10px; /* Add some space between input and button */
+}
+
+/* Style the button on hover */
+button[type="submit"]:hover {
+  background-color: #3e8e41; /* Darken green on hover */
+}
+
+.logo-image {
+  width: 50px; /* Adjust width of your logos */
+  height: 50px; /* Adjust height of your logos */
+}
+CSS .hidden {
+  display: none; /* Initially hide the window */
+}
+
+.window {
+  /* Styles for the window appearance (background, borders, etc.) */
+}
+
+.window-header {
+  /* Styles for the window header (title bar) */
+}
+
+.window-content {
+  /* Styles for the window content area (padding, etc.) */
+}
