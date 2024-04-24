@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="src/styles.css" />
     <link rel="stylesheet" href="src/styles1.css" />
     <link rel="stylesheet" href="src/styles2.css" />
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
   </head>
 
   <body>
+    <div class="container"></div>
     <nav>
       <div class="logo-container">
         <img src="src/assets/logo1.png" alt="Logo 1" class="logo-image"/>
@@ -26,7 +28,7 @@
         <img src="src/assets/logo2.jpg" alt="Logo 2" class="logo-image"/>
       </div>
     </nav>
-    <div class="container">
+    
       <div class="box element-container">
           <div class="element title-container">
             <h1 id="progress-title">Welcome to the Word Guessing Game!</h1>
@@ -48,13 +50,6 @@
           </div>
           </div>  
         <div class="box image-container">
-          <img src="src/assets/image1.jpg" alt="Image 1">
-          <img src="src/assets/image2.jpg" alt="Image 2">
-          <img src="src/assets/image3.jpg" alt="Image 3">
-          <img src="src/assets/image4.jpg" alt="Image 4">
-        </div>
-      </div>
-
-    <script src="src/index.js"></script>
+          <dotlottie-player src="https://lottie.host/27f7f017-5e19-401f-8697-e83a16a78d0f/7tccETjoQL.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>    <script src="src/index.js"></script>
   </body>
 </html>
