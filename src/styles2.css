@@ -3,20 +3,10 @@
     flex-direction: column;
   }
   
-  .element {
-    padding: 20px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-  }
   .element-container div:nth-child(2){ 
     margin-bottom: 50px;
   }
-  
-  @media (max-width: 768px) {
-    .element {
-      width: 100%;
-    }
-  }
+
 
   /* Container for the Card and the Image */
 
@@ -47,7 +37,4 @@
 
   body > div > div.box.element-container > div.element.title-container{
     background-color: #F9F4F3;
-  }
-  .card {
-
   }

@@ -24,7 +24,16 @@ button:hover {
 h1 {
   text-align: center;
   display: inline-block;
-  font-size: 32px;
+  font-size: 38px;
+}
+
+@media only screen and (max-width: 710px) {
+  h1 {
+    font-size: 18px; /* Adjusted font size for 480px screen */
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+  }
 }
 
 form h2 {
@@ -41,11 +50,7 @@ form h2 {
 }
 /* Style the entire form */
 form {
-  width: 350px; /* Set a width for the form field */
-  height: 23px; /* Set a height for the form field */
   overflow: auto;
-  margin: 10px auto; /* Add some margin for spacing */
-  padding: 26px; /* Add some padding inside the form */
   /*border: 1px solid #ccc;  Add a thin border */
   border-radius: 5px; /* Add rounded corners */
 }
@@ -57,7 +62,7 @@ form {
   border-radius: 5px; /* Add rounded corners */
 }
 .tall-form {
-  height: 180px; /* adjust as needed */
+  height: auto; /* adjust as needed */
 }
 
 /* Style the label */
@@ -99,8 +104,6 @@ nav {
 
 /* Style the input field */
 input[type="text"] {
-  width: 350px; /* Set a width for the input field */
-  height: 30px; /* Set a height for the input field */
   padding: 5px; /* Add some padding inside the input */
   margin:10px;
   border: 1px solid #ccc; /* Add a thin border */

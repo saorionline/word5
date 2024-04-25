@@ -6,8 +6,8 @@ This code implements a simple single-player word guessing game in JavaScript.
 
 # Functionality:
 
-Players try to guess a hidden word by suggesting letters or the entire word.
-They have three chances to guess correctly.
+Player try to guess a hidden word by suggesting letters or the entire word.
+He/She have 3 chances to guess correctly.
 The game provides feedback for correct and incorrect guesses.
 Code Breakdown:
 
